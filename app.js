@@ -24,7 +24,7 @@ app.use((req, res, next) => {
 
 // Route to handle form submission
 app.post('/send', (req, res) => {
-    const { name, email, subject, message } = req.body;
+    const { name, email, message } = req.body;
 
     // Create a transporter
     const transporter = nodemailer.createTransport({
@@ -40,9 +40,9 @@ app.post('/send', (req, res) => {
     // Email options
     const mailOptions = {
         from: process.env.EMAIL, // Your email address from .env
-        to: 'info@fun-canada.com',
-        subject: 'Contact Form',
-        text: `Name: ${name}\nEmail: ${email}\nSubject: ${subject}\nMessage: ${message}`
+        to: 'youthclub@fun-canada.com',
+        subject: 'Youth Club Form',
+        text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`
     };
 
     // Send email
