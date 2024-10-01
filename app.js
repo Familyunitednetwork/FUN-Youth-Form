@@ -42,7 +42,7 @@ app.post('/send', (req, res) => {
         from: process.env.EMAIL, // Your email address from .env
         to: 'youthclub@fun-canada.com',
         subject: 'Youth Club Form',
-        text: `First Name: ${firstName}\nLast Name: ${lastName}\nAge: ${age}Phone: ${phone}\nEmail: ${email}\nYouth Club Activity: ${activities}\nEmergency Name: ${emergencyName}\nEmergency Number: ${emergencyNumber}\nAddress: ${address}\nCity: ${city}\nPostal Code: ${postalCode}`
+        text: `First Name: ${firstName}\nLast Name: ${lastName}\nAge: ${age}\nPhone: ${phone}\nEmail: ${email}\nYouth Club Activity: ${activities}\nEmergency Name: ${emergencyName}\nEmergency Number: ${emergencyNumber}\nAddress: ${address}\nCity: ${city}\nPostal Code: ${postalCode}`
     };
 
     // Send email
