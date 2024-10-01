@@ -361,56 +361,18 @@ section {
   color: #fff;
 }
 
-
-
-
-#contact .contact-info {
-  margin-bottom: 20px;
-  text-align: center;
+#contact p,
+#contact ol.text-color,
+#contact ol.text-color li,
+#contact ol.text-color li b,
+#contact ol.text-color li ul li,
+#contact ol.text-color li ul li b {
+  color: #fff; /* Set text color to white */
 }
 
-#contact .contact-info i {
-  font-size: 48px;
-  display: inline-block;
-  margin-bottom: 10px;
+#contact ol.text-color .club-activities,
+#contact ol.text-color .club-activities b {
   color: #14213d;
-}
-
-#contact .contact-info address,
-#contact .contact-info p {
-  margin-bottom: 0;
-  color: #fff;
-}
-
-#contact .contact-info h3 {
-  font-size: 18px;
-  margin-bottom: 15px;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #fff;
-}
-
-#contact .contact-info a {
-  color: #fff;
-}
-
-#contact .contact-info a:hover {
-  color: #14213d;
-}
-
-#contact .contact-address,
-#contact .contact-phone,
-#contact .contact-email {
-  margin-bottom: 20px;
-}
-
-@media (min-width: 768px) {
-
-  #contact .contact-address,
-  #contact .contact-phone,
-  #contact .contact-email {
-    padding: 20px 0;
-  }
 }
 
 @media (min-width: 768px) {
